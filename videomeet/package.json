@@ -1,0 +1,20 @@
+{
+  "name": "videomeet",
+  "version": "1.0.0",
+  "description": "Full-stack video conferencing with mediasoup SFU",
+  "scripts": {
+    "install:all": "npm run install:backend && npm run install:web",
+    "install:backend": "cd backend && npm install",
+    "install:web": "cd frontend/web && npm install",
+    "install:mobile": "cd frontend/mobile && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:web\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:web": "cd frontend/web && npm start",
+    "dev:mobile": "cd frontend/mobile && npm start",
+    "build:web": "cd frontend/web && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
