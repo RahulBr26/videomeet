@@ -8,7 +8,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const SERVER_URL = process.env.REACT_APP_SERVER_URL || 'http://localhost:5000';
+const SERVER_URL = process.env.REACT_APP_SERVER_URL || 'http://videomeet-zejf.onrender.com';
 
 export default function HomePage({ userName, setUserName }) {
   const navigate = useNavigate();

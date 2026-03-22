@@ -12,7 +12,7 @@ import * as mediasoupClient from 'mediasoup-client';
 import { io } from 'socket.io-client';
 import { v4 as uuidv4 } from 'uuid';
 
-const SERVER_URL = 'http://localhost:5000'; // Change to your server IP/domain
+const SERVER_URL = 'http://videomeet-zejf.onrender.com'; // Change to your server IP/domain
 
 export function useMediasoupMobile(roomId, peerName) {
   const [peerId] = useState(() => uuidv4());

@@ -18,7 +18,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const SERVER_URL = 'http://localhost:5000'; // Change to your server IP
+const SERVER_URL = 'http://videomeet-zejf.onrender.com'; // Change to your server IP
 
 export default function HomeScreen({ navigation }) {
   const [name, setName] = useState('');

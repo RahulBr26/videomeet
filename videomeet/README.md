@@ -113,7 +113,7 @@ npm install
 
 ```bash
 npm run dev
-# ✅ Server running on http://localhost:5000
+# ✅ Server running on http://videomeet-zejf.onrender.com
 ```
 
 ### 4. Start the web frontend
@@ -201,8 +201,7 @@ FRONTEND_URL=http://localhost:3000
 ### Web frontend `.env`
 
 ```env
-REACT_APP_SERVER_URL=http://localhost:5000
-```
+REACT_APP_SERVER_URL=http://videomeet-zejf.onrender.com
 
 ---
 

@@ -8,7 +8,7 @@ import { io } from 'socket.io-client';
 
 const SocketContext = createContext(null);
 
-const SERVER_URL = process.env.REACT_APP_SERVER_URL || 'http://localhost:5000';
+const SERVER_URL = process.env.REACT_APP_SERVER_URL || 'http://videomeet-zejf.onrender.com';
 
 export function SocketProvider({ children }) {
   const socketRef = useRef(null);
